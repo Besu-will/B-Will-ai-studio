@@ -1,10 +1,10 @@
 import crypto from 'node:crypto';
-import { Request, Response, NextFunction } from 'express';
+import type { Request, Response, NextFunction } from 'express';
 import { initializeApp, getApps, getApp } from 'firebase-admin/app';
 import { getAuth } from 'firebase-admin/auth';
 import firebaseConfig from '../firebase-applet-config.json' with { type: 'json' };
 import { store } from './store.ts';
-import { UserRole } from '../src/shared/types.ts';
+import type { UserRole } from '../src/shared/types.ts';
 
 const OWNER_ADMIN_EMAIL = 'outstandiiing@gmail.com';
 const SESSION_SECRET = process.env.SESSION_SECRET || crypto.randomBytes(32).toString('hex');

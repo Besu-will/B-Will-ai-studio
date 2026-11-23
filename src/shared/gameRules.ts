@@ -1,16 +1,16 @@
 import {
-  BetRecord,
-  BetSlotIndex,
-  FinancialReport,
   GAME_COLORS,
-  GameColor,
-  GameSettings,
-  LeaderboardEntry,
-  PlayerProfile,
-  RoundPhase,
-  RoundSummary,
-  TransactionRecord,
-} from './types';
+  type BetRecord,
+  type BetSlotIndex,
+  type FinancialReport,
+  type GameColor,
+  type GameSettings,
+  type LeaderboardEntry,
+  type PlayerProfile,
+  type RoundPhase,
+  type RoundSummary,
+  type TransactionRecord,
+} from './types.ts';
 
 export function roundCurrency(value: number): number {
   return Math.round((value + Number.EPSILON) * 100) / 100;

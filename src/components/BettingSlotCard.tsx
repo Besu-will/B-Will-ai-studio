@@ -276,26 +276,26 @@ export const BettingSlotCard: React.FC<BettingSlotCardProps> = ({
       data-card-lit="false"
       className="bg-[#121821] border border-white/10 rounded-xl p-3 sm:p-5 space-y-2.5 sm:space-y-4 flex flex-col justify-between min-w-0"
     >
-      {/* Middle-Top Mode Toggle: Manual (left) | Auto (right) */}
+      {/* Middle-Top Mode Toggle: Balanced equal-width Self (left) | Auto (right) */}
       <div className="flex items-center justify-center pb-2 sm:pb-3 border-b border-white/10">
         <div
           role="tablist"
           aria-label={`Slot ${slotIndex} betting mode`}
-          className="inline-flex items-center p-0.5 rounded-lg bg-[#0B0F14] border border-white/10"
+          className="inline-grid grid-cols-2 p-0.5 rounded-lg bg-[#0B0F14] border border-white/10"
         >
           <button
             type="button"
             role="tab"
             aria-selected={mode === 'manual'}
-            data-testid={`slot-${slotIndex}-mode-manual`}
+            data-testid={`slot-${slotIndex}-mode-self`}
             onClick={() => handleModeChange('manual')}
-            className={`px-3.5 sm:px-5 py-1 text-xs sm:text-sm font-display font-semibold rounded-md transition-colors whitespace-nowrap shrink-0 cursor-pointer ${
+            className={`w-[68px] sm:w-[76px] py-1 text-center text-xs sm:text-sm font-display font-semibold rounded-md transition-colors whitespace-nowrap cursor-pointer ${
               mode === 'manual'
                 ? 'bg-[#1B2432] text-white'
                 : 'text-slate-400 hover:text-white'
             }`}
           >
-            Manual
+            Self
           </button>
           <button
             type="button"
@@ -303,7 +303,7 @@ export const BettingSlotCard: React.FC<BettingSlotCardProps> = ({
             aria-selected={mode === 'auto'}
             data-testid={`slot-${slotIndex}-mode-auto`}
             onClick={() => handleModeChange('auto')}
-            className={`px-3.5 sm:px-5 py-1 text-xs sm:text-sm font-display font-semibold rounded-md transition-colors whitespace-nowrap shrink-0 cursor-pointer ${
+            className={`w-[68px] sm:w-[76px] py-1 text-center text-xs sm:text-sm font-display font-semibold rounded-md transition-colors whitespace-nowrap cursor-pointer ${
               mode === 'auto'
                 ? 'bg-[#1B2432] text-white'
                 : 'text-slate-400 hover:text-white'

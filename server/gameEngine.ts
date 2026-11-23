@@ -1,15 +1,15 @@
 import crypto from 'node:crypto';
-import { Response } from 'express';
+import type { Response } from 'express';
 import { store } from './store.ts';
 import {
-  BetRecord,
-  BetSlotIndex,
   GAME_COLORS,
-  GameColor,
-  PublicRoundState,
-  RoundPhase,
-  RoundSummary,
-  TransactionRecord,
+  type BetRecord,
+  type BetSlotIndex,
+  type GameColor,
+  type PublicRoundState,
+  type RoundPhase,
+  type RoundSummary,
+  type TransactionRecord,
 } from '../src/shared/types.ts';
 import {
   nextPhaseAfter,

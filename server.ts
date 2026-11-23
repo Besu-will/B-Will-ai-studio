@@ -2,10 +2,9 @@ import crypto from 'node:crypto';
 import path from 'node:path';
 import express from 'express';
 import dotenv from 'dotenv';
-import { createServer as createViteServer } from 'vite';
-import { store, StoredUser } from './server/store.ts';
+import { store, type StoredUser } from './server/store.ts';
 import {
-  AuthenticatedRequest,
+  type AuthenticatedRequest,
   hashSecret,
   isAdminSetupRequired,
   optionalAuth,
@@ -26,7 +25,7 @@ import {
   validateUsername,
   validateWithdrawalRequest,
 } from './src/shared/gameRules.ts';
-import { TransactionRecord } from './src/shared/types.ts';
+import type { TransactionRecord } from './src/shared/types.ts';
 
 dotenv.config();
 
@@ -672,6 +671,7 @@ async function startServer() {
   gameEngine.start();
 
   if (process.env.NODE_ENV !== 'production') {
+    const { createServer: createViteServer } = await import('vite');
     const vite = await createViteServer({
       server: { middlewareMode: true },
       appType: 'spa',

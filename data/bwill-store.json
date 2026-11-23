@@ -1,0 +1,2811 @@
+{
+  "users": {
+    "player-marcus": {
+      "userId": "player-marcus",
+      "username": "MarcusV",
+      "balance": 1420.5,
+      "totalWagered": 3800,
+      "totalWon": 4620.5,
+      "winsCount": 19,
+      "gamesPlayed": 42,
+      "isBanned": false,
+      "role": "player",
+      "createdAt": "2026-11-09T21:03:32.071Z",
+      "updatedAt": "2026-11-23T20:58:32.071Z"
+    },
+    "player-elena": {
+      "userId": "player-elena",
+      "username": "Elena_K",
+      "balance": 965,
+      "totalWagered": 2950,
+      "totalWon": 3485,
+      "winsCount": 15,
+      "gamesPlayed": 34,
+      "isBanned": false,
+      "role": "player",
+      "createdAt": "2026-11-12T21:03:32.071Z",
+      "updatedAt": "2026-11-23T20:56:32.071Z"
+    },
+    "player-soren": {
+      "userId": "player-soren",
+      "username": "Soren99",
+      "balance": 710.25,
+      "totalWagered": 2100,
+      "totalWon": 2490.25,
+      "winsCount": 11,
+      "gamesPlayed": 28,
+      "isBanned": false,
+      "role": "player",
+      "createdAt": "2026-11-14T21:03:32.071Z",
+      "updatedAt": "2026-11-23T20:53:32.071Z"
+    },
+    "player-nadia": {
+      "userId": "player-nadia",
+      "username": "Nadia_T",
+      "balance": 540,
+      "totalWagered": 1650,
+      "totalWon": 1870,
+      "winsCount": 9,
+      "gamesPlayed": 22,
+      "isBanned": false,
+      "role": "player",
+      "createdAt": "2026-11-17T21:03:32.071Z",
+      "updatedAt": "2026-11-23T20:48:32.071Z"
+    },
+    "player-viktor": {
+      "userId": "player-viktor",
+      "username": "ViktorR",
+      "balance": 315,
+      "totalWagered": 1200,
+      "totalWon": 1125,
+      "winsCount": 5,
+      "gamesPlayed": 18,
+      "isBanned": false,
+      "role": "player",
+      "createdAt": "2026-11-19T21:03:32.071Z",
+      "updatedAt": "2026-11-23T20:43:32.071Z"
+    }
+  },
+  "usernames": {
+    "marcusv": "player-marcus",
+    "elena_k": "player-elena",
+    "soren99": "player-soren",
+    "nadia_t": "player-nadia",
+    "viktorr": "player-viktor"
+  },
+  "rounds": [
+    {
+      "roundId": "round-0149",
+      "roundNumber": 149,
+      "phase": "REVEAL",
+      "commitHash": "2c6a1d265eba05fd7a678f5c501b1086158a56a0f60b757a170d6e7be5909219",
+      "winningColor": "BLUE",
+      "revealSalt": "a85be4d3987e4464ff69e871ab517fab",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:15:58.227Z",
+      "settledAt": "2026-11-23T22:16:24.267Z"
+    },
+    {
+      "roundId": "round-0148",
+      "roundNumber": 148,
+      "phase": "REVEAL",
+      "commitHash": "e547a2c05cfb522c7197a6b19b99282efd76171a08b6790fe290ba39a2bb7771",
+      "winningColor": "BLUE",
+      "revealSalt": "48613370733384daf228c90fa043d472",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:15:27.185Z",
+      "settledAt": "2026-11-23T22:15:53.222Z"
+    },
+    {
+      "roundId": "round-0147",
+      "roundNumber": 147,
+      "phase": "REVEAL",
+      "commitHash": "26cb1e5b114101f6b2afe735339668293c9c3a27c82f0df26d8898648e37a0fc",
+      "winningColor": "ORANGE",
+      "revealSalt": "4ab3d7c9cb7a1fe8403336c01abd17e1",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:14:57.252Z",
+      "settledAt": "2026-11-23T22:15:23.287Z"
+    },
+    {
+      "roundId": "round-0146",
+      "roundNumber": 146,
+      "phase": "REVEAL",
+      "commitHash": "3e2531d19eba56ff25c23f63f8e065bdc7293b594e098b90f7058f286d841214",
+      "winningColor": "BLUE",
+      "revealSalt": "fa7087dbefd041f7e5c02925fc921c4a",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:14:26.209Z",
+      "settledAt": "2026-11-23T22:14:52.243Z"
+    },
+    {
+      "roundId": "round-0145",
+      "roundNumber": 145,
+      "phase": "REVEAL",
+      "commitHash": "e5a240681ea6576c896d2c514c41630b20eeac857dbc5d6f399418c95ee9c5e0",
+      "winningColor": "ORANGE",
+      "revealSalt": "e6ea9cfdb2b19766bacbb31071833fa8",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:13:55.160Z",
+      "settledAt": "2026-11-23T22:14:21.202Z"
+    },
+    {
+      "roundId": "round-0144",
+      "roundNumber": 144,
+      "phase": "REVEAL",
+      "commitHash": "f51909003575c944af2e9255c8dda24a257d7d6f2bfdb11d396784dde7865b84",
+      "winningColor": "ORANGE",
+      "revealSalt": "ed98d89d4ee5e63627b9a7b9d534a0b7",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:13:24.121Z",
+      "settledAt": "2026-11-23T22:13:50.156Z"
+    },
+    {
+      "roundId": "round-0143",
+      "roundNumber": 143,
+      "phase": "REVEAL",
+      "commitHash": "290c3febe4a8874b66bbfb84e9a98c508173c7510ee753840b3948cf2e85323f",
+      "winningColor": "BLUE",
+      "revealSalt": "5e03e57d5bcb31d78608d0f071aed863",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:12:53.084Z",
+      "settledAt": "2026-11-23T22:13:19.112Z"
+    },
+    {
+      "roundId": "round-0142",
+      "roundNumber": 142,
+      "phase": "REVEAL",
+      "commitHash": "98f7e0eaad796b312159295a3eeacab0f09ae679d868d7a5f24bb307d34cbcd5",
+      "winningColor": "ORANGE",
+      "revealSalt": "4b481c979a1a24803bf4136ac24eb32d",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:12:22.034Z",
+      "settledAt": "2026-11-23T22:12:48.073Z"
+    },
+    {
+      "roundId": "round-0141",
+      "roundNumber": 141,
+      "phase": "REVEAL",
+      "commitHash": "065ccf15beb8097abafa51f90b92b8a28412caaef6587a49e1d55e34c963d1a6",
+      "winningColor": "BLUE",
+      "revealSalt": "8570f589c1ad5f61bc1a46ab2f0c5651",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:11:50.975Z",
+      "settledAt": "2026-11-23T22:12:17.025Z"
+    },
+    {
+      "roundId": "round-0140",
+      "roundNumber": 140,
+      "phase": "REVEAL",
+      "commitHash": "bb3bf67e6618c8413902ac89c48103a0ea34a896ed1b924dcd4eed95f056086e",
+      "winningColor": "GREEN",
+      "revealSalt": "e87f4f46e7274ae3192a0ced72aaf028",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:11:19.928Z",
+      "settledAt": "2026-11-23T22:11:45.964Z"
+    },
+    {
+      "roundId": "round-0139",
+      "roundNumber": 139,
+      "phase": "REVEAL",
+      "commitHash": "ce2f61831b9462c8988348b4d437d17bcd4a1244e67b19dbba09232f75087334",
+      "winningColor": "GREEN",
+      "revealSalt": "ab88dc26f71cf8f7dd54de1a12b320ef",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:10:48.879Z",
+      "settledAt": "2026-11-23T22:11:14.920Z"
+    },
+    {
+      "roundId": "round-0138",
+      "roundNumber": 138,
+      "phase": "REVEAL",
+      "commitHash": "cbfc303e642c5f1161375ecd5adb74d53a0c0f68a5d4a3a8d0a4b81b1c07623c",
+      "winningColor": "ORANGE",
+      "revealSalt": "ba866de989ddb46f5140e61804c41a3e",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:10:17.839Z",
+      "settledAt": "2026-11-23T22:10:43.871Z"
+    },
+    {
+      "roundId": "round-0137",
+      "roundNumber": 137,
+      "phase": "REVEAL",
+      "commitHash": "18e8587d450a7b7d3005da1114bba50aa1065acdbeda5e47ba5fe6ff37e01da8",
+      "winningColor": "GREEN",
+      "revealSalt": "fee6d8e04e02a6d0741720be459c7225",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:09:46.799Z",
+      "settledAt": "2026-11-23T22:10:12.834Z"
+    },
+    {
+      "roundId": "round-0136",
+      "roundNumber": 136,
+      "phase": "REVEAL",
+      "commitHash": "f5594c88f30bbd965a1b71b77c0ca119c8f044786bfe46687dd7a6a66c93d7f3",
+      "winningColor": "ORANGE",
+      "revealSalt": "ee2ffe5abae4474aa904a0216502f67e",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:09:15.759Z",
+      "settledAt": "2026-11-23T22:09:41.790Z"
+    },
+    {
+      "roundId": "round-0135",
+      "roundNumber": 135,
+      "phase": "REVEAL",
+      "commitHash": "f06f362bb710fb579c30f74368abe4552f1094e26537bdc2b33417deb7753fc7",
+      "winningColor": "BLUE",
+      "revealSalt": "f36d891604037865eb39ba373c0de573",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:08:44.714Z",
+      "settledAt": "2026-11-23T22:09:10.744Z"
+    },
+    {
+      "roundId": "round-0134",
+      "roundNumber": 134,
+      "phase": "REVEAL",
+      "commitHash": "4e4636e3438449eb6972249dbbf88e57499a4e967f5c80b1ebab7deb934931c3",
+      "winningColor": "GREEN",
+      "revealSalt": "42036ad8143dfe0bd60282dcbb09e671",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:08:13.675Z",
+      "settledAt": "2026-11-23T22:08:39.709Z"
+    },
+    {
+      "roundId": "round-0133",
+      "roundNumber": 133,
+      "phase": "REVEAL",
+      "commitHash": "5a4e3b30d9cf501ca1e81bc870bf0a979be9d6428a7c5484694b1613fb679d44",
+      "winningColor": "ORANGE",
+      "revealSalt": "e6ac6d35d9767e71f1549cdbbf4e0e39",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:07:42.626Z",
+      "settledAt": "2026-11-23T22:08:08.668Z"
+    },
+    {
+      "roundId": "round-0132",
+      "roundNumber": 132,
+      "phase": "REVEAL",
+      "commitHash": "a44d36c20d6932e401f108ace1aebbea2b849d39e328e29bdcf1aab17400007a",
+      "winningColor": "ORANGE",
+      "revealSalt": "c9e7bbcab6bb5aa0ab9a9e42a54a2377",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:07:11.585Z",
+      "settledAt": "2026-11-23T22:07:37.618Z"
+    },
+    {
+      "roundId": "round-0131",
+      "roundNumber": 131,
+      "phase": "REVEAL",
+      "commitHash": "1467e81b42abb3a1737a420378c0756800ad342e49f21b84ddc27f405eb7d5d0",
+      "winningColor": "ORANGE",
+      "revealSalt": "ec04b3ae5e01bd1458a2c4faeeea02b7",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:06:40.539Z",
+      "settledAt": "2026-11-23T22:07:06.576Z"
+    },
+    {
+      "roundId": "round-0130",
+      "roundNumber": 130,
+      "phase": "REVEAL",
+      "commitHash": "d7eab4e254d387979911b8448cf7f66f78a04379d8db8996b655bb862e78c9f2",
+      "winningColor": "BLUE",
+      "revealSalt": "570597580318d7b9a1e52bbed3b88296",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:06:09.500Z",
+      "settledAt": "2026-11-23T22:06:35.531Z"
+    },
+    {
+      "roundId": "round-0129",
+      "roundNumber": 129,
+      "phase": "REVEAL",
+      "commitHash": "0b0250467497dc42bb265e9d2b98b32e9031d95db6093823a9fa747e4001787e",
+      "winningColor": "BLUE",
+      "revealSalt": "2dcc4ee44f594e6e82b940d85d8e3f81",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:05:38.450Z",
+      "settledAt": "2026-11-23T22:06:04.487Z"
+    },
+    {
+      "roundId": "round-0128",
+      "roundNumber": 128,
+      "phase": "REVEAL",
+      "commitHash": "8e5825fac98cc4338e5d0a51e3907dbc66e80f9dc2c58c6afcd70be513368eb6",
+      "winningColor": "GREEN",
+      "revealSalt": "d2876c9cd3025595692d44da18e5d005",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:05:07.404Z",
+      "settledAt": "2026-11-23T22:05:33.440Z"
+    },
+    {
+      "roundId": "round-0127",
+      "roundNumber": 127,
+      "phase": "REVEAL",
+      "commitHash": "2e75f68572007ef02bda653d2db184585a8d37d8be1e2c730aee354745452eff",
+      "winningColor": "BLUE",
+      "revealSalt": "e3ee235243e55964f7124a520da880aa",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:04:36.363Z",
+      "settledAt": "2026-11-23T22:05:02.395Z"
+    },
+    {
+      "roundId": "round-0126",
+      "roundNumber": 126,
+      "phase": "REVEAL",
+      "commitHash": "fff30f3b50c585762b459e707f1f035ad63ef93f51fe0c7f6140c47975250f9a",
+      "winningColor": "GREEN",
+      "revealSalt": "58b1eb0685b2e9dea0188c8786a0be6e",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:04:05.317Z",
+      "settledAt": "2026-11-23T22:04:31.357Z"
+    },
+    {
+      "roundId": "round-0125",
+      "roundNumber": 125,
+      "phase": "REVEAL",
+      "commitHash": "cbc7d3080dd25dad7b3304a022d81d2c6ce6472ff71f100ac2a5f1144a180170",
+      "winningColor": "BLUE",
+      "revealSalt": "73a075ff3359636be7bc1dcec8d59af8",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:03:34.271Z",
+      "settledAt": "2026-11-23T22:04:00.309Z"
+    },
+    {
+      "roundId": "round-0124",
+      "roundNumber": 124,
+      "phase": "REVEAL",
+      "commitHash": "531b7e55e206d3e7af1701ea4e10c037b6c9307276b3c3c6de5119a192fec664",
+      "winningColor": "ORANGE",
+      "revealSalt": "2a0d4e18bf5dd545be25690313437df5",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:03:03.211Z",
+      "settledAt": "2026-11-23T22:03:29.260Z"
+    },
+    {
+      "roundId": "round-0123",
+      "roundNumber": 123,
+      "phase": "REVEAL",
+      "commitHash": "57a44fe89f8d1b4224da215d026b191ace22046c9ac104965337ad9651a9bc0d",
+      "winningColor": "GREEN",
+      "revealSalt": "5a5790e4fa370e655c9a5c77e10cd495",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:02:32.167Z",
+      "settledAt": "2026-11-23T22:02:58.200Z"
+    },
+    {
+      "roundId": "round-0122",
+      "roundNumber": 122,
+      "phase": "REVEAL",
+      "commitHash": "6fc40d7d30da0d03cebc7ddbb082f0a8b50f3774a50efa07384ef4c0a7d0390a",
+      "winningColor": "GREEN",
+      "revealSalt": "53059ef1576458e4f3fcba59a7c43f36",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:02:01.124Z",
+      "settledAt": "2026-11-23T22:02:27.157Z"
+    },
+    {
+      "roundId": "round-0121",
+      "roundNumber": 121,
+      "phase": "REVEAL",
+      "commitHash": "833399007e56fb29bd4847eb9793075e5aa22c7fd0be5253a5e793801a620c77",
+      "winningColor": "GREEN",
+      "revealSalt": "6e45aec70ea64c936741595122579008",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:01:30.082Z",
+      "settledAt": "2026-11-23T22:01:56.114Z"
+    },
+    {
+      "roundId": "round-0120",
+      "roundNumber": 120,
+      "phase": "REVEAL",
+      "commitHash": "04909c53268faf74c2695c87dedcfa9032cbb9f0c186a1edf898ba18496ab851",
+      "winningColor": "ORANGE",
+      "revealSalt": "2c73c9b87b894ad6d03cea0dd9c315ac",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:00:59.040Z",
+      "settledAt": "2026-11-23T22:01:25.074Z"
+    },
+    {
+      "roundId": "round-0119",
+      "roundNumber": 119,
+      "phase": "REVEAL",
+      "commitHash": "e51fd417b0b81d7c13256cc97e8e0448fa05ba00f2ea44791f58ecd25dbaa8e6",
+      "winningColor": "GREEN",
+      "revealSalt": "c323bd9904ddd40eba3a244f6069ec1d",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T22:00:28.006Z",
+      "settledAt": "2026-11-23T22:00:54.033Z"
+    },
+    {
+      "roundId": "round-0118",
+      "roundNumber": 118,
+      "phase": "REVEAL",
+      "commitHash": "4334340f762aae3484b4635618c7b5725dadeb4f81cffb2681fb0f85d86a1018",
+      "winningColor": "GREEN",
+      "revealSalt": "fc23a0cfe8cc184b9a5ab340e2f7e55a",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:59:56.957Z",
+      "settledAt": "2026-11-23T22:00:22.999Z"
+    },
+    {
+      "roundId": "round-0117",
+      "roundNumber": 117,
+      "phase": "REVEAL",
+      "commitHash": "f9d26b6c35b6bf5a1f6c424a8b1d99f41301f248d7146c2b37b6c6a691b842ff",
+      "winningColor": "ORANGE",
+      "revealSalt": "b957ae722cd97f5e8d6f9b7a3cb09741",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:59:25.915Z",
+      "settledAt": "2026-11-23T21:59:51.949Z"
+    },
+    {
+      "roundId": "round-0116",
+      "roundNumber": 116,
+      "phase": "REVEAL",
+      "commitHash": "2f66a4a77e84581bc3243a4013f79979421f2284b7b408462c38cb1e19ae52d3",
+      "winningColor": "BLUE",
+      "revealSalt": "e3454a4beab09acd7b0751053a860bb9",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:58:54.863Z",
+      "settledAt": "2026-11-23T21:59:20.904Z"
+    },
+    {
+      "roundId": "round-0115",
+      "roundNumber": 115,
+      "phase": "REVEAL",
+      "commitHash": "7dc4964580231e1f3d48eda7de99e0c036e27eeb1c5f997750b695f277d39f06",
+      "winningColor": "GREEN",
+      "revealSalt": "a14e7dafc7398685a406a6062d3f94c4",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:58:23.813Z",
+      "settledAt": "2026-11-23T21:58:49.851Z"
+    },
+    {
+      "roundId": "round-0114",
+      "roundNumber": 114,
+      "phase": "REVEAL",
+      "commitHash": "d69f35f6fb3ecb585ed81706c522724581944a0b67799ad449573cfd2b876ab9",
+      "winningColor": "GREEN",
+      "revealSalt": "c687a7c4e353a2cf6d522c68490291d3",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:57:52.762Z",
+      "settledAt": "2026-11-23T21:58:18.802Z"
+    },
+    {
+      "roundId": "round-0113",
+      "roundNumber": 113,
+      "phase": "REVEAL",
+      "commitHash": "961a4a9aef9a8025e2750bb7c2732f8af2255b2e6bd6442c75f456d84df011d3",
+      "winningColor": "ORANGE",
+      "revealSalt": "14588d930b15e211b075f0748f0cc24c",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:57:21.716Z",
+      "settledAt": "2026-11-23T21:57:47.757Z"
+    },
+    {
+      "roundId": "round-0112",
+      "roundNumber": 112,
+      "phase": "REVEAL",
+      "commitHash": "ba07fdd4653b55e88ac72f558034387803abdec931074aa14e23ecf5dd03473a",
+      "winningColor": "ORANGE",
+      "revealSalt": "6eff88e638cfb4a6e1043a2a4962a0a3",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:56:50.665Z",
+      "settledAt": "2026-11-23T21:57:16.707Z"
+    },
+    {
+      "roundId": "round-0111",
+      "roundNumber": 111,
+      "phase": "REVEAL",
+      "commitHash": "d572149bdf904d926659a409d84c246d4d2fc5f5804c4f88bc171f3f62066dc0",
+      "winningColor": "BLUE",
+      "revealSalt": "16ac68c9cb63acfc5aaddf3389c74fe8",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:56:19.608Z",
+      "settledAt": "2026-11-23T21:56:45.654Z"
+    },
+    {
+      "roundId": "round-0110",
+      "roundNumber": 110,
+      "phase": "REVEAL",
+      "commitHash": "d69b199b8e7e272c6475539c1b4ac1354716c8fade7fd570ad6dd2092a047781",
+      "winningColor": "BLUE",
+      "revealSalt": "ca808c17352a61167fcd4ebc23b6a0af",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:55:48.561Z",
+      "settledAt": "2026-11-23T21:56:14.599Z"
+    },
+    {
+      "roundId": "round-0109",
+      "roundNumber": 109,
+      "phase": "REVEAL",
+      "commitHash": "3668a37e81e4a5ba5e316cd431a5081d30623f25bd44305e2e3686bd27c0b15f",
+      "winningColor": "BLUE",
+      "revealSalt": "2e63b5f13b01bb3dfba7f60379ccb50e",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:55:17.509Z",
+      "settledAt": "2026-11-23T21:55:43.552Z"
+    },
+    {
+      "roundId": "round-0108",
+      "roundNumber": 108,
+      "phase": "REVEAL",
+      "commitHash": "1c049cac4944d5f628150fe9aab33f1a03db482b6bae5c8fbf03a42261a65450",
+      "winningColor": "ORANGE",
+      "revealSalt": "4666c1aa28496cbf2082d16a3f6af428",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:54:46.455Z",
+      "settledAt": "2026-11-23T21:55:12.498Z"
+    },
+    {
+      "roundId": "round-0107",
+      "roundNumber": 107,
+      "phase": "REVEAL",
+      "commitHash": "e18242579cf62a54acff2c107227e6bdf24535b519d644ec466ffc9583389576",
+      "winningColor": "ORANGE",
+      "revealSalt": "5990c0f5ad5a530bb3dcc04ca07fdda5",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:54:15.404Z",
+      "settledAt": "2026-11-23T21:54:41.450Z"
+    },
+    {
+      "roundId": "round-0106",
+      "roundNumber": 106,
+      "phase": "REVEAL",
+      "commitHash": "6259ed425af83ed3c2a84ab539be25a6531f9e80264632004a68effb9fd2551f",
+      "winningColor": "ORANGE",
+      "revealSalt": "72d00cc7b93b940fe572f40751e77b2d",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:53:44.349Z",
+      "settledAt": "2026-11-23T21:54:10.395Z"
+    },
+    {
+      "roundId": "round-0105",
+      "roundNumber": 105,
+      "phase": "REVEAL",
+      "commitHash": "aab497cc601cfa396f3414fcc064872f88a558ecc479b9f4b5bba1fb3eb47c16",
+      "winningColor": "BLUE",
+      "revealSalt": "628bd1c0ed20f25d02e888bbb142e96a",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:53:13.304Z",
+      "settledAt": "2026-11-23T21:53:39.344Z"
+    },
+    {
+      "roundId": "round-0104",
+      "roundNumber": 104,
+      "phase": "REVEAL",
+      "commitHash": "744e75addf9e883e641a6ad5f8fb02a5e3d4c3b5faee4de01bc00d45f41e49a4",
+      "winningColor": "GREEN",
+      "revealSalt": "9390c45bf6b3ff955604bc23e3061f93",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:52:42.253Z",
+      "settledAt": "2026-11-23T21:53:08.295Z"
+    },
+    {
+      "roundId": "round-0103",
+      "roundNumber": 103,
+      "phase": "REVEAL",
+      "commitHash": "4bc05cca68b28f2efa41fd8384ecb6976216c84f563960dc716bf43e2620859d",
+      "winningColor": "BLUE",
+      "revealSalt": "50f30027a268b51c56bb60196e237401",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:52:11.197Z",
+      "settledAt": "2026-11-23T21:52:37.244Z"
+    },
+    {
+      "roundId": "round-0102",
+      "roundNumber": 102,
+      "phase": "REVEAL",
+      "commitHash": "bb7c6c8bb766206fc9d74dc71e061a34f2ccd904ebce62cf7c93db744452549e",
+      "winningColor": "BLUE",
+      "revealSalt": "97ce7c784427fcf9b7d0d98094bbc1e4",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:51:40.151Z",
+      "settledAt": "2026-11-23T21:52:06.190Z"
+    },
+    {
+      "roundId": "round-0101",
+      "roundNumber": 101,
+      "phase": "REVEAL",
+      "commitHash": "318389c8aa539e8e629e9e385ebaf71d45c6990747bc5776b2ff23e29f31bd0e",
+      "winningColor": "GREEN",
+      "revealSalt": "6ee4e7eff145bd81da3591f23546eaa6",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:51:09.104Z",
+      "settledAt": "2026-11-23T21:51:35.139Z"
+    },
+    {
+      "roundId": "round-0100",
+      "roundNumber": 100,
+      "phase": "REVEAL",
+      "commitHash": "24a0be53955e79daa5e0d084fbeee08de22fd1b0da0681a9e6e4f1fd9286d834",
+      "winningColor": "BLUE",
+      "revealSalt": "abaf48c59868723a77778b7808e3fb0d",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:50:38.064Z",
+      "settledAt": "2026-11-23T21:51:04.097Z"
+    },
+    {
+      "roundId": "round-0099",
+      "roundNumber": 99,
+      "phase": "REVEAL",
+      "commitHash": "27efc444dcac95856f34ab9cadda4aa56af0114dc0d2b0270ad542d281faaa82",
+      "winningColor": "GREEN",
+      "revealSalt": "fd0d4f67d8dab41b980a4975b046a3d6",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:50:07.013Z",
+      "settledAt": "2026-11-23T21:50:33.058Z"
+    },
+    {
+      "roundId": "round-0098",
+      "roundNumber": 98,
+      "phase": "REVEAL",
+      "commitHash": "a43a3bdfb8484119d477a4cc7526ae64afc367271820c2dde2830cf9fbbb180a",
+      "winningColor": "BLUE",
+      "revealSalt": "139b67f7a331016681c3717bd5f67d2e",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:49:35.967Z",
+      "settledAt": "2026-11-23T21:50:02.004Z"
+    },
+    {
+      "roundId": "round-0097",
+      "roundNumber": 97,
+      "phase": "REVEAL",
+      "commitHash": "7e0e573575eab7409563155a2f10d7074306fc2c47f0eb94a7cb7ec68f3468e6",
+      "winningColor": "BLUE",
+      "revealSalt": "58090a27d646d20abbba54b88be43512",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:49:04.920Z",
+      "settledAt": "2026-11-23T21:49:30.958Z"
+    },
+    {
+      "roundId": "round-0096",
+      "roundNumber": 96,
+      "phase": "REVEAL",
+      "commitHash": "2ae9b21e84073130654a62cd1a1e34f0c34991378f4267d38291c534e2d87d67",
+      "winningColor": "BLUE",
+      "revealSalt": "b0e72e6ae71404f65c83ccced227eba6",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:48:33.875Z",
+      "settledAt": "2026-11-23T21:48:59.912Z"
+    },
+    {
+      "roundId": "round-0095",
+      "roundNumber": 95,
+      "phase": "REVEAL",
+      "commitHash": "ce4420159a20675c6ff699323f028dca893b988c37de6c55e1f273c9f2273da3",
+      "winningColor": "GREEN",
+      "revealSalt": "89174910ef48dc2853ae590d7c3cc8d3",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:48:02.834Z",
+      "settledAt": "2026-11-23T21:48:28.867Z"
+    },
+    {
+      "roundId": "round-0094",
+      "roundNumber": 94,
+      "phase": "REVEAL",
+      "commitHash": "21ba2c0ca8cbae9f807288ba73e9c4e383d78eec28d3caedc16ce51012b7126a",
+      "winningColor": "ORANGE",
+      "revealSalt": "9deaf0b285d327263d93d1c1ccca38c4",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:47:31.786Z",
+      "settledAt": "2026-11-23T21:47:57.828Z"
+    },
+    {
+      "roundId": "round-0093",
+      "roundNumber": 93,
+      "phase": "REVEAL",
+      "commitHash": "5ea94affdf26396611f8b10d7f9d260c6551e55fd515c9c918489a8540a6f20f",
+      "winningColor": "GREEN",
+      "revealSalt": "47dbe94246c1ea191aa8171d2c7a6be0",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:47:00.738Z",
+      "settledAt": "2026-11-23T21:47:26.779Z"
+    },
+    {
+      "roundId": "round-0092",
+      "roundNumber": 92,
+      "phase": "REVEAL",
+      "commitHash": "7143fad5d1035319aa44e27adf0431bbc407733024a80aba304d14d9157b02de",
+      "winningColor": "BLUE",
+      "revealSalt": "77b01b9fafa60dc1e07e71d70dd91b71",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:46:29.680Z",
+      "settledAt": "2026-11-23T21:46:55.731Z"
+    },
+    {
+      "roundId": "round-0091",
+      "roundNumber": 91,
+      "phase": "REVEAL",
+      "commitHash": "2b59961ad541a1b865932e61a291172e8b099d95208b7a0e84f24c4b8b9306aa",
+      "winningColor": "ORANGE",
+      "revealSalt": "5df0b88647209bf0759b6417f0fccc3f",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:45:58.632Z",
+      "settledAt": "2026-11-23T21:46:24.670Z"
+    },
+    {
+      "roundId": "round-0090",
+      "roundNumber": 90,
+      "phase": "REVEAL",
+      "commitHash": "6ce2a143efa902f280a8a6803c01d5b34653acc7d7f7f21de32ee387379a1fcf",
+      "winningColor": "ORANGE",
+      "revealSalt": "36ff5cbee45c2cbd557183cd3a4e7649",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:45:27.575Z",
+      "settledAt": "2026-11-23T21:45:53.621Z"
+    },
+    {
+      "roundId": "round-0089",
+      "roundNumber": 89,
+      "phase": "REVEAL",
+      "commitHash": "a47f4b4d02be1c9b2d3547198dff072fef6413cd400ae771067709dd7983bdf3",
+      "winningColor": "ORANGE",
+      "revealSalt": "5022607f8f1c6654f899c94060293a5a",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:44:56.527Z",
+      "settledAt": "2026-11-23T21:45:22.568Z"
+    },
+    {
+      "roundId": "round-0088",
+      "roundNumber": 88,
+      "phase": "REVEAL",
+      "commitHash": "de3dfd3eada8f1d3ea12c06f3af6cdd5cc236f91f93662764d96694db31fd984",
+      "winningColor": "GREEN",
+      "revealSalt": "f7316ef43f5376e1d1a55016e2a83d50",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:44:25.473Z",
+      "settledAt": "2026-11-23T21:44:51.517Z"
+    },
+    {
+      "roundId": "round-0087",
+      "roundNumber": 87,
+      "phase": "REVEAL",
+      "commitHash": "5a0e870bfcca32e0c8e92a97e72ece5b56636d978e76e9b0b8f3f27ecfdd1c47",
+      "winningColor": "ORANGE",
+      "revealSalt": "cd37a8531efd52b44f38be47a23f2131",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:43:54.422Z",
+      "settledAt": "2026-11-23T21:44:20.464Z"
+    },
+    {
+      "roundId": "round-0086",
+      "roundNumber": 86,
+      "phase": "REVEAL",
+      "commitHash": "fb360130bae0732d12334cfaacdbd6760ecb52b5bd7e57b223e39b0ab36e2f17",
+      "winningColor": "BLUE",
+      "revealSalt": "f2aa9c81585308e878535551a35f3d31",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:43:23.376Z",
+      "settledAt": "2026-11-23T21:43:49.417Z"
+    },
+    {
+      "roundId": "round-0085",
+      "roundNumber": 85,
+      "phase": "REVEAL",
+      "commitHash": "93fc86918011509af2691e0a3f99fdd5df2d1c2a717a15f8b6b408011a4130e0",
+      "winningColor": "GREEN",
+      "revealSalt": "b6fe2efe6212fc4abcdc36e3cc4cbcc8",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:42:52.327Z",
+      "settledAt": "2026-11-23T21:43:18.368Z"
+    },
+    {
+      "roundId": "round-0084",
+      "roundNumber": 84,
+      "phase": "REVEAL",
+      "commitHash": "03deb3b9a87100f164b47e739eb3ab6a9e65354b29ee51915dfc52eef58073f6",
+      "winningColor": "ORANGE",
+      "revealSalt": "9d090cd5f8a07f7c0c0542ec8dfb5316",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:42:21.272Z",
+      "settledAt": "2026-11-23T21:42:47.314Z"
+    },
+    {
+      "roundId": "round-0083",
+      "roundNumber": 83,
+      "phase": "REVEAL",
+      "commitHash": "0d014d27b6b74f426778dfcb0e5abdd51596723a26551a55a2160e6b2f651326",
+      "winningColor": "GREEN",
+      "revealSalt": "fc50ac1368cca3f7333b417a3116d20e",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:41:50.216Z",
+      "settledAt": "2026-11-23T21:42:16.264Z"
+    },
+    {
+      "roundId": "round-0082",
+      "roundNumber": 82,
+      "phase": "REVEAL",
+      "commitHash": "cf37524562e274cf19e5485c24a83b32be6186684b701a2c38b08f6aee82c822",
+      "winningColor": "GREEN",
+      "revealSalt": "1490a9cd80d3ab58eebb729a2703fe7c",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:41:19.160Z",
+      "settledAt": "2026-11-23T21:41:45.208Z"
+    },
+    {
+      "roundId": "round-0081",
+      "roundNumber": 81,
+      "phase": "REVEAL",
+      "commitHash": "5915b59625fd65055690f55fd03f0ad9dc46a3adc5479944aca9ce4c0cf92a63",
+      "winningColor": "ORANGE",
+      "revealSalt": "c4a718a0615faf44041e0e362e8c3ff2",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:40:48.109Z",
+      "settledAt": "2026-11-23T21:41:14.149Z"
+    },
+    {
+      "roundId": "round-0080",
+      "roundNumber": 80,
+      "phase": "REVEAL",
+      "commitHash": "d1093dad1f4f527a1426c9cbe047c7fdeb90b349d6caaeb599a023bde0c5b66e",
+      "winningColor": "GREEN",
+      "revealSalt": "91746cc422816a53de10329599129af4",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:40:17.055Z",
+      "settledAt": "2026-11-23T21:40:43.100Z"
+    },
+    {
+      "roundId": "round-0079",
+      "roundNumber": 79,
+      "phase": "REVEAL",
+      "commitHash": "8101b8cd3bdc8ffd80a56a90cbe75c1084f5f2764090012df3abfcd8e2022117",
+      "winningColor": "BLUE",
+      "revealSalt": "22087082c1957b5277c3e300cf007fe0",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:39:46.003Z",
+      "settledAt": "2026-11-23T21:40:12.042Z"
+    },
+    {
+      "roundId": "round-0078",
+      "roundNumber": 78,
+      "phase": "REVEAL",
+      "commitHash": "47cfbc6466f9bb3c7a81e15cb70a15d82a0397c23bede4ec0361683a1b5f68e5",
+      "winningColor": "GREEN",
+      "revealSalt": "d56cbef52342a55cb4a358042164a873",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:39:14.946Z",
+      "settledAt": "2026-11-23T21:39:40.993Z"
+    },
+    {
+      "roundId": "round-0077",
+      "roundNumber": 77,
+      "phase": "REVEAL",
+      "commitHash": "590623c703fc66d88f247b7209ba3b989531657edab254f94c2497cf383752d7",
+      "winningColor": "BLUE",
+      "revealSalt": "8fde46e2509dfb418d5e7aaa4b47933d",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:38:43.891Z",
+      "settledAt": "2026-11-23T21:39:09.936Z"
+    },
+    {
+      "roundId": "round-0076",
+      "roundNumber": 76,
+      "phase": "REVEAL",
+      "commitHash": "b29a0ad8fd43bef03378eff184a4d35008d08d75270353ddf3f3c603d70dca12",
+      "winningColor": "GREEN",
+      "revealSalt": "cacb9f4ddeddb24b2d44771dd4d08668",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:38:12.847Z",
+      "settledAt": "2026-11-23T21:38:38.881Z"
+    },
+    {
+      "roundId": "round-0075",
+      "roundNumber": 75,
+      "phase": "REVEAL",
+      "commitHash": "6ed292375e11430abb3f51b7fd774517d3c2c89e06732931b9b47456bd22fe93",
+      "winningColor": "GREEN",
+      "revealSalt": "dbd371dda8720df9ae6df03f70a6ddd5",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:37:41.798Z",
+      "settledAt": "2026-11-23T21:38:07.837Z"
+    },
+    {
+      "roundId": "round-0074",
+      "roundNumber": 74,
+      "phase": "REVEAL",
+      "commitHash": "04e0c003fbc5eb5456f80ac679855010f1321552b0d09e450589daf8e4b9ce1f",
+      "winningColor": "GREEN",
+      "revealSalt": "8a0bf492d56df153024667409e31a0ac",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:37:10.755Z",
+      "settledAt": "2026-11-23T21:37:36.792Z"
+    },
+    {
+      "roundId": "round-0073",
+      "roundNumber": 73,
+      "phase": "REVEAL",
+      "commitHash": "1338217d8a554b4cb294c4ebe56c36ec421fb193548535366f5697d8849b194a",
+      "winningColor": "ORANGE",
+      "revealSalt": "9a1f696e8cd4e5b03394fddb5776cce2",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:36:39.701Z",
+      "settledAt": "2026-11-23T21:37:05.745Z"
+    },
+    {
+      "roundId": "round-0072",
+      "roundNumber": 72,
+      "phase": "REVEAL",
+      "commitHash": "8d2ba6cb9d9c1a93bae8150bf0913cbcff5ee7a833a59233f2943295cc8fe155",
+      "winningColor": "BLUE",
+      "revealSalt": "f70761b24c541cb255cb2d0ac543f7ab",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:36:08.639Z",
+      "settledAt": "2026-11-23T21:36:34.689Z"
+    },
+    {
+      "roundId": "round-0071",
+      "roundNumber": 71,
+      "phase": "REVEAL",
+      "commitHash": "6854d7ff342d03acbbe8a6fe811bd97f3e20b68e91e4b08d25f6e7d94870be27",
+      "winningColor": "ORANGE",
+      "revealSalt": "197cc094a5c31ff55d5f979aa6228bfe",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:35:37.593Z",
+      "settledAt": "2026-11-23T21:36:03.632Z"
+    },
+    {
+      "roundId": "round-0070",
+      "roundNumber": 70,
+      "phase": "REVEAL",
+      "commitHash": "b520bf55ad2957b352fab69c8a68b40752ef6916b15e85a7b28d5dc2ecfbfd51",
+      "winningColor": "GREEN",
+      "revealSalt": "ca23e1bad28785b90d165c13f4bb47e4",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:35:06.550Z",
+      "settledAt": "2026-11-23T21:35:32.587Z"
+    },
+    {
+      "roundId": "round-0069",
+      "roundNumber": 69,
+      "phase": "REVEAL",
+      "commitHash": "4f4779678cd61a227f64c3b7496e1193844e27c4531bc674aaeced2127c86640",
+      "winningColor": "BLUE",
+      "revealSalt": "6ab5406e57b2a2835c08ff0344b58a9e",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:34:35.499Z",
+      "settledAt": "2026-11-23T21:35:01.543Z"
+    },
+    {
+      "roundId": "round-0068",
+      "roundNumber": 68,
+      "phase": "REVEAL",
+      "commitHash": "53deb39b05d1ebb8c029502cd389ef1a8755722b1ea6e0931ef272182e20abd8",
+      "winningColor": "GREEN",
+      "revealSalt": "00624b9f5cff9e0d33203fe3329fab5c",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:34:04.448Z",
+      "settledAt": "2026-11-23T21:34:30.491Z"
+    },
+    {
+      "roundId": "round-0067",
+      "roundNumber": 67,
+      "phase": "REVEAL",
+      "commitHash": "3635c443f81fd27c69cd013194c97a903756f6e7f4977e4865663e9143a4ceb1",
+      "winningColor": "ORANGE",
+      "revealSalt": "1c341ca5f27269792287fcb11eac3b68",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:33:33.402Z",
+      "settledAt": "2026-11-23T21:33:59.440Z"
+    },
+    {
+      "roundId": "round-0066",
+      "roundNumber": 66,
+      "phase": "REVEAL",
+      "commitHash": "11076a58963dc6c712cf37e165794f58f00558ed7055de33fbdf6b3222fed777",
+      "winningColor": "BLUE",
+      "revealSalt": "9b7f0ad8626788a892e9591b13305038",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:33:02.362Z",
+      "settledAt": "2026-11-23T21:33:28.393Z"
+    },
+    {
+      "roundId": "round-0065",
+      "roundNumber": 65,
+      "phase": "REVEAL",
+      "commitHash": "39ea9ab66f2cff45b6d87129933ea83ab4fab9bc570803e3de7933ef36ab722d",
+      "winningColor": "BLUE",
+      "revealSalt": "7114eff7fb220088a556efaff2bd489e",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:32:31.312Z",
+      "settledAt": "2026-11-23T21:32:57.353Z"
+    },
+    {
+      "roundId": "round-0064",
+      "roundNumber": 64,
+      "phase": "REVEAL",
+      "commitHash": "76f2a4fbfb56b5513f5c2f7b26cfd6374bb42605619ee2fc63e0341a251e86a8",
+      "winningColor": "GREEN",
+      "revealSalt": "1e86b6a06eb9f8aa0f86750bb7c00f11",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:32:00.266Z",
+      "settledAt": "2026-11-23T21:32:26.303Z"
+    },
+    {
+      "roundId": "round-0063",
+      "roundNumber": 63,
+      "phase": "REVEAL",
+      "commitHash": "b7380a776ac381f21e9d7effdb4118bc3614054bfb3b09852ed4aa74b53befa1",
+      "winningColor": "ORANGE",
+      "revealSalt": "cc5ddc4521fe8ebcc0c7acc8bc5eafe9",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:31:29.220Z",
+      "settledAt": "2026-11-23T21:31:55.258Z"
+    },
+    {
+      "roundId": "round-0062",
+      "roundNumber": 62,
+      "phase": "REVEAL",
+      "commitHash": "506f800820d2bc276994d8ae585bc1b2795178137fd3cb140b31ec4068992db5",
+      "winningColor": "GREEN",
+      "revealSalt": "b05e248a50442f2ee7fbee94d9d64b9e",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:30:58.170Z",
+      "settledAt": "2026-11-23T21:31:24.213Z"
+    },
+    {
+      "roundId": "round-0061",
+      "roundNumber": 61,
+      "phase": "REVEAL",
+      "commitHash": "465408db51786f349188b968d97705fbcab4e42d0aabc546bb8f40f289c6a8b6",
+      "winningColor": "GREEN",
+      "revealSalt": "d0f5b515dfaae80532fc25f1c31a6c04",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:30:27.123Z",
+      "settledAt": "2026-11-23T21:30:53.162Z"
+    },
+    {
+      "roundId": "round-0060",
+      "roundNumber": 60,
+      "phase": "REVEAL",
+      "commitHash": "932ad853e763ef08e79c8309e1e11be7c697190ff6e44eef0c5f36eacb1dd5fd",
+      "winningColor": "GREEN",
+      "revealSalt": "7268f98d74bed3b317c17efb77108590",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:29:56.088Z",
+      "settledAt": "2026-11-23T21:30:22.114Z"
+    },
+    {
+      "roundId": "round-0059",
+      "roundNumber": 59,
+      "phase": "REVEAL",
+      "commitHash": "63ca6b4b74d0996fd642f795a94e5810d6edfd926096485fbcd6f347246b0399",
+      "winningColor": "BLUE",
+      "revealSalt": "b497523fd4a45f08413d156caa3959bc",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:29:25.050Z",
+      "settledAt": "2026-11-23T21:29:51.081Z"
+    },
+    {
+      "roundId": "round-0058",
+      "roundNumber": 58,
+      "phase": "REVEAL",
+      "commitHash": "17c95d8c9f619de725f38a1831b1ce8a7e155d2b31de5125b4b9e98f6d0bec4e",
+      "winningColor": "ORANGE",
+      "revealSalt": "1273d9535309f9de8d3675061ac0c61b",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:28:54.011Z",
+      "settledAt": "2026-11-23T21:29:20.043Z"
+    },
+    {
+      "roundId": "round-0057",
+      "roundNumber": 57,
+      "phase": "REVEAL",
+      "commitHash": "44dd605e0535d4969ca9df2b9f05a0498cfdd49a1fe2bc7a81dc41c2fc4be71c",
+      "winningColor": "BLUE",
+      "revealSalt": "672aac739be8df8da27d8fb9915af45c",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:28:22.964Z",
+      "settledAt": "2026-11-23T21:28:49.006Z"
+    },
+    {
+      "roundId": "round-0056",
+      "roundNumber": 56,
+      "phase": "REVEAL",
+      "commitHash": "74bc2eab90b564f4cf8cb5d68adab1ca3d88e7bc404bd47ee4e093ddae1732d3",
+      "winningColor": "ORANGE",
+      "revealSalt": "ac82a3544ff0575ed36b9228ecbdfe1d",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:27:51.921Z",
+      "settledAt": "2026-11-23T21:28:17.957Z"
+    },
+    {
+      "roundId": "round-0055",
+      "roundNumber": 55,
+      "phase": "REVEAL",
+      "commitHash": "749f275db611a00e942a46f60684226efc94ce09b28dfcdd0a81d232ffc371a9",
+      "winningColor": "GREEN",
+      "revealSalt": "449c70a58738e18181b97777703a8339",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:27:20.876Z",
+      "settledAt": "2026-11-23T21:27:46.915Z"
+    },
+    {
+      "roundId": "round-0054",
+      "roundNumber": 54,
+      "phase": "REVEAL",
+      "commitHash": "b8698a7ec73579f3f5a9072c36fd3f0a751ff25be950f649f884883d2ea0d190",
+      "winningColor": "BLUE",
+      "revealSalt": "44f719064f0026192bc5ec5857c3abb6",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:26:49.825Z",
+      "settledAt": "2026-11-23T21:27:15.865Z"
+    },
+    {
+      "roundId": "round-0053",
+      "roundNumber": 53,
+      "phase": "REVEAL",
+      "commitHash": "30abc8b782e62150842f40d3e4796ad57121e7883872eca514172ba33a220e40",
+      "winningColor": "ORANGE",
+      "revealSalt": "1e0bd0b17464082bffdec134f666e33a",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:26:18.775Z",
+      "settledAt": "2026-11-23T21:26:44.817Z"
+    },
+    {
+      "roundId": "round-0052",
+      "roundNumber": 52,
+      "phase": "REVEAL",
+      "commitHash": "8817c14ec8f17573588dd9d5694540eb5c8f40f120162db5ed11964a73ce0eb8",
+      "winningColor": "BLUE",
+      "revealSalt": "5096d3dc21bc598c4a6a9f28fad33e96",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:25:47.729Z",
+      "settledAt": "2026-11-23T21:26:13.768Z"
+    },
+    {
+      "roundId": "round-0051",
+      "roundNumber": 51,
+      "phase": "REVEAL",
+      "commitHash": "d9971a55d456db18d05a36e31a8de2b319f5c432060b3b1a20a193ef0ce2e256",
+      "winningColor": "ORANGE",
+      "revealSalt": "1110c416fe681ff4bf135bd8daf41162",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:25:16.687Z",
+      "settledAt": "2026-11-23T21:25:42.720Z"
+    },
+    {
+      "roundId": "round-0050",
+      "roundNumber": 50,
+      "phase": "REVEAL",
+      "commitHash": "f30e0f2ac593a6b62c84001c13bd9b3f52e63267db11d975032240dff393d836",
+      "winningColor": "ORANGE",
+      "revealSalt": "1927a9716a97e7c9ad906991445113a9",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:24:45.639Z",
+      "settledAt": "2026-11-23T21:25:11.679Z"
+    },
+    {
+      "roundId": "round-0049",
+      "roundNumber": 49,
+      "phase": "REVEAL",
+      "commitHash": "ab75e3947c75a00f61444bd82e869ea27b3ccdf494d2cfed93c5c3e64bbb850d",
+      "winningColor": "ORANGE",
+      "revealSalt": "e4e39925821abf20ca479652ba89fb18",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:24:14.592Z",
+      "settledAt": "2026-11-23T21:24:40.633Z"
+    },
+    {
+      "roundId": "round-0048",
+      "roundNumber": 48,
+      "phase": "REVEAL",
+      "commitHash": "4668e2872074be29fd3b163a40d63214d6223dfd68c88032af5e4e617719bc82",
+      "winningColor": "ORANGE",
+      "revealSalt": "3804d71426b13e29b5b3274e2ba6341f",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:23:43.551Z",
+      "settledAt": "2026-11-23T21:24:09.580Z"
+    },
+    {
+      "roundId": "round-0047",
+      "roundNumber": 47,
+      "phase": "REVEAL",
+      "commitHash": "4944e7210ad7fc1311bff30e0e4c21939be3fc6ed402c4c55dc4ec5b280fde61",
+      "winningColor": "GREEN",
+      "revealSalt": "29dbf5a484108aba13e06c8e5dec67ea",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:23:12.488Z",
+      "settledAt": "2026-11-23T21:23:38.530Z"
+    },
+    {
+      "roundId": "round-0046",
+      "roundNumber": 46,
+      "phase": "REVEAL",
+      "commitHash": "90d85b323f1dc63d2705b969bc607f9d62ae3bfe4796ab6794ed68f17a2ffc6b",
+      "winningColor": "ORANGE",
+      "revealSalt": "a4c8f780ad1ec133197089376bcf1f05",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:22:41.439Z",
+      "settledAt": "2026-11-23T21:23:07.478Z"
+    },
+    {
+      "roundId": "round-0045",
+      "roundNumber": 45,
+      "phase": "REVEAL",
+      "commitHash": "54143a6d943c0197f51d943146120048fbfa02b1cc1c7e2fc6823c8c0a014ad6",
+      "winningColor": "BLUE",
+      "revealSalt": "39d4c44d8c15ecac6ef926354faa0ee7",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:22:10.392Z",
+      "settledAt": "2026-11-23T21:22:36.433Z"
+    },
+    {
+      "roundId": "round-0044",
+      "roundNumber": 44,
+      "phase": "REVEAL",
+      "commitHash": "c0e35370d7dc981a7bc5409a829bac602ae66dfa5d4fe093684ec3e55e552357",
+      "winningColor": "BLUE",
+      "revealSalt": "06faa6628ca2489e610cd5e36000963e",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:21:39.346Z",
+      "settledAt": "2026-11-23T21:22:05.385Z"
+    },
+    {
+      "roundId": "round-0043",
+      "roundNumber": 43,
+      "phase": "REVEAL",
+      "commitHash": "d151b09c5eaba25474efa3194b2ba8714d2b8d821749e9527e9f9d6edbbd2703",
+      "winningColor": "GREEN",
+      "revealSalt": "b5028df8999d12e7eb647cbfa0a70c0a",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:21:08.299Z",
+      "settledAt": "2026-11-23T21:21:34.340Z"
+    },
+    {
+      "roundId": "round-0042",
+      "roundNumber": 42,
+      "phase": "REVEAL",
+      "commitHash": "984f76c509eaf783ed4a2c6d404f25ca220dbe9b8b6e4018c5d51a7d33e994f7",
+      "winningColor": "ORANGE",
+      "revealSalt": "aa2294c97631a343d26155a1be628706",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:20:37.252Z",
+      "settledAt": "2026-11-23T21:21:03.293Z"
+    },
+    {
+      "roundId": "round-0041",
+      "roundNumber": 41,
+      "phase": "REVEAL",
+      "commitHash": "ad306cf1069b84928d965e3dd96d414d51b9fb33973fffc2e89d2951e76b997c",
+      "winningColor": "ORANGE",
+      "revealSalt": "93aa48dadf0384d2da21a84ccb7a209c",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:20:06.203Z",
+      "settledAt": "2026-11-23T21:20:32.243Z"
+    },
+    {
+      "roundId": "round-0040",
+      "roundNumber": 40,
+      "phase": "REVEAL",
+      "commitHash": "bfe0967db7aafbc1b39b04fb493c93f6cd95aebbade5ec9fd357dd7d1a1abf2a",
+      "winningColor": "GREEN",
+      "revealSalt": "4e15e1a14b82d9ea8070379f6e2f7553",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:19:35.148Z",
+      "settledAt": "2026-11-23T21:20:01.194Z"
+    },
+    {
+      "roundId": "round-0039",
+      "roundNumber": 39,
+      "phase": "REVEAL",
+      "commitHash": "04d8d8b64c964ae20a3f5645d54ac96b2166cc1632edac2c387682bef6920c4d",
+      "winningColor": "GREEN",
+      "revealSalt": "d1c8f67eeacb2eac68389eb4282459f8",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:19:04.112Z",
+      "settledAt": "2026-11-23T21:19:30.143Z"
+    },
+    {
+      "roundId": "round-0038",
+      "roundNumber": 38,
+      "phase": "REVEAL",
+      "commitHash": "a1768344c7f900f199d8d20a81d26297be7ed0653b38e0c3672203ab7cd8678d",
+      "winningColor": "ORANGE",
+      "revealSalt": "8678d96c95292b9b294b9401b71fe8fc",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:18:33.066Z",
+      "settledAt": "2026-11-23T21:18:59.106Z"
+    },
+    {
+      "roundId": "round-0037",
+      "roundNumber": 37,
+      "phase": "REVEAL",
+      "commitHash": "a17bce821ca5375a5e74b81e986a321694282fad22c4fdf05ea118824fbe60a7",
+      "winningColor": "BLUE",
+      "revealSalt": "afce3761f1ba6268df3b0f9f2ed94229",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:18:02.020Z",
+      "settledAt": "2026-11-23T21:18:28.055Z"
+    },
+    {
+      "roundId": "round-0036",
+      "roundNumber": 36,
+      "phase": "REVEAL",
+      "commitHash": "03d3c345cef798e74c10012f564af1348d3e1b71b00aec1e2e4e5409f16d4659",
+      "winningColor": "BLUE",
+      "revealSalt": "3abcf29357b714db80f43e6f577f291f",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:17:30.977Z",
+      "settledAt": "2026-11-23T21:17:57.011Z"
+    },
+    {
+      "roundId": "round-0035",
+      "roundNumber": 35,
+      "phase": "REVEAL",
+      "commitHash": "200d1802d462f4e507c4a9fbfd1da69d4e9f6e312aa660f1e6ffaf389e89cd5c",
+      "winningColor": "BLUE",
+      "revealSalt": "f44595b96bb5f795a2679e5d6da212c3",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:16:59.929Z",
+      "settledAt": "2026-11-23T21:17:25.969Z"
+    },
+    {
+      "roundId": "round-0034",
+      "roundNumber": 34,
+      "phase": "REVEAL",
+      "commitHash": "c10dbb426379ce5fc36cb2fd541637d41916b978efd8e33d466ad4d498a0eb70",
+      "winningColor": "GREEN",
+      "revealSalt": "f191cce431b4b17b91827fa2ba473709",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:16:28.883Z",
+      "settledAt": "2026-11-23T21:16:54.921Z"
+    },
+    {
+      "roundId": "round-0033",
+      "roundNumber": 33,
+      "phase": "REVEAL",
+      "commitHash": "5cf73e8aca6162c17d5a5c4ea8ae9639de022db88573654ab62b0da9defe1bf7",
+      "winningColor": "ORANGE",
+      "revealSalt": "010c588553ec9c04d317609f2e58d64b",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:15:57.834Z",
+      "settledAt": "2026-11-23T21:16:23.875Z"
+    },
+    {
+      "roundId": "round-0032",
+      "roundNumber": 32,
+      "phase": "REVEAL",
+      "commitHash": "48068f1c719e2f882ce513487521d3d393614fb174099dcd96ca4ef7f333b4d7",
+      "winningColor": "BLUE",
+      "revealSalt": "14d622a864a7622afffdfcd7e40c7008",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:15:26.785Z",
+      "settledAt": "2026-11-23T21:15:52.826Z"
+    },
+    {
+      "roundId": "round-0031",
+      "roundNumber": 31,
+      "phase": "REVEAL",
+      "commitHash": "8296284272528b9f3ee043dd5f64d828e3343cfd82cdc740728caad348b109f8",
+      "winningColor": "BLUE",
+      "revealSalt": "fd230ea94242d67a695533b0523b767b",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:14:55.735Z",
+      "settledAt": "2026-11-23T21:15:21.775Z"
+    },
+    {
+      "roundId": "round-0030",
+      "roundNumber": 30,
+      "phase": "REVEAL",
+      "commitHash": "5214221a8013cce2441f035020b6e7ccf8c98af64113ebdb5fa6862e5b6572cf",
+      "winningColor": "GREEN",
+      "revealSalt": "e7c738006e8e8b61f45a49c1371c99d7",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:14:24.685Z",
+      "settledAt": "2026-11-23T21:14:50.727Z"
+    },
+    {
+      "roundId": "round-0029",
+      "roundNumber": 29,
+      "phase": "REVEAL",
+      "commitHash": "51472af3a9713f0c92de56b916c8e58a80494ebf7da59b08734eedb33ca7fe4c",
+      "winningColor": "BLUE",
+      "revealSalt": "c3d7c54c3b36b8e5ac15ab8eadd8e50c",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:13:53.643Z",
+      "settledAt": "2026-11-23T21:14:19.676Z"
+    },
+    {
+      "roundId": "round-0028",
+      "roundNumber": 28,
+      "phase": "REVEAL",
+      "commitHash": "0bdc80a48e3dfe3a8e0fa1868a33383cfb283bbea133e5697e78ed203d7971ba",
+      "winningColor": "ORANGE",
+      "revealSalt": "b3d0fd516482d0e0f27608676c89baf1",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:13:22.593Z",
+      "settledAt": "2026-11-23T21:13:48.631Z"
+    },
+    {
+      "roundId": "round-0027",
+      "roundNumber": 27,
+      "phase": "REVEAL",
+      "commitHash": "13694d6ae6a41e9220b659ad8143132fc4effb83a1e24adcbf69ec67963a9205",
+      "winningColor": "BLUE",
+      "revealSalt": "9269477fe6108bd744f54dfad50f973b",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:12:51.544Z",
+      "settledAt": "2026-11-23T21:13:17.585Z"
+    },
+    {
+      "roundId": "round-0026",
+      "roundNumber": 26,
+      "phase": "REVEAL",
+      "commitHash": "680df001d7bac60c1ba4e572353654eebc75a581253e61111adbaa5c7338a37e",
+      "winningColor": "ORANGE",
+      "revealSalt": "90cad98e90e95818c33dbde685e46d3c",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:12:20.502Z",
+      "settledAt": "2026-11-23T21:12:46.536Z"
+    },
+    {
+      "roundId": "round-0025",
+      "roundNumber": 25,
+      "phase": "REVEAL",
+      "commitHash": "07f57c4f89725d78a40bc8aa45c09a835585a8aab5ab7295bc5083c8d5fe222d",
+      "winningColor": "BLUE",
+      "revealSalt": "5b2e6eb0069d60cbdb83460157d85427",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:11:49.448Z",
+      "settledAt": "2026-11-23T21:12:15.495Z"
+    },
+    {
+      "roundId": "round-0024",
+      "roundNumber": 24,
+      "phase": "REVEAL",
+      "commitHash": "0f7081cc9e6f55b9e9011336c7bec9781036780169cd8db890996a6d6a5b71cc",
+      "winningColor": "BLUE",
+      "revealSalt": "97137951b4bae3853945ad05e41c4c4a",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:11:18.389Z",
+      "settledAt": "2026-11-23T21:11:44.436Z"
+    },
+    {
+      "roundId": "round-0023",
+      "roundNumber": 23,
+      "phase": "REVEAL",
+      "commitHash": "f6a826214919cd05383c1176a1d26f2c5f262cb28d91666a8bae86a1f8c2679e",
+      "winningColor": "ORANGE",
+      "revealSalt": "7309da0b119124ef07406769b34efeb3",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:10:47.350Z",
+      "settledAt": "2026-11-23T21:11:13.385Z"
+    },
+    {
+      "roundId": "round-0022",
+      "roundNumber": 22,
+      "phase": "REVEAL",
+      "commitHash": "8fe17d0c2048ea184f7fb69b378f41dc1ba632337ca37e72915d2273de7c1025",
+      "winningColor": "GREEN",
+      "revealSalt": "0f5966ee40edcab8345c12ece4ebac5e",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:10:16.299Z",
+      "settledAt": "2026-11-23T21:10:42.343Z"
+    },
+    {
+      "roundId": "round-0021",
+      "roundNumber": 21,
+      "phase": "REVEAL",
+      "commitHash": "9e65c3ecb4ef3825ad307911ae4acf1c2954df320c572b5a1e6f0a100e29d1d3",
+      "winningColor": "GREEN",
+      "revealSalt": "af9954f903a20fcc8213013ec4ee3b1d",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:09:45.250Z",
+      "settledAt": "2026-11-23T21:10:11.292Z"
+    },
+    {
+      "roundId": "round-0020",
+      "roundNumber": 20,
+      "phase": "REVEAL",
+      "commitHash": "c2e130d517e62e7f991b9272f5a1061f245eb795c9fa6f8e21acb340ce6d77f6",
+      "winningColor": "ORANGE",
+      "revealSalt": "17e8bf4c66a6bba1db03b9328f4be22e",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:09:14.200Z",
+      "settledAt": "2026-11-23T21:09:40.241Z"
+    },
+    {
+      "roundId": "round-0019",
+      "roundNumber": 19,
+      "phase": "REVEAL",
+      "commitHash": "4d1216c7c2a066a5a2094712836058287e182be3f429361cb0f234adc48e3309",
+      "winningColor": "GREEN",
+      "revealSalt": "ef82737be58069f50e712af58511e890",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:08:43.151Z",
+      "settledAt": "2026-11-23T21:09:09.189Z"
+    },
+    {
+      "roundId": "round-0018",
+      "roundNumber": 18,
+      "phase": "REVEAL",
+      "commitHash": "f5503f48e7dda3b1050d37bae70f606da16dcb3a7adac1066c445629e64ca762",
+      "winningColor": "ORANGE",
+      "revealSalt": "e6c63544e71bf67807189706da2029ab",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:08:12.101Z",
+      "settledAt": "2026-11-23T21:08:38.141Z"
+    },
+    {
+      "roundId": "round-0017",
+      "roundNumber": 17,
+      "phase": "REVEAL",
+      "commitHash": "978e0f51c00a609141be3f68c759642e39ed55e648b19920c157f5b102f0507e",
+      "winningColor": "ORANGE",
+      "revealSalt": "4ee534c18a3a3907e0ca6c26515582eb",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:07:41.053Z",
+      "settledAt": "2026-11-23T21:08:07.092Z"
+    },
+    {
+      "roundId": "round-0016",
+      "roundNumber": 16,
+      "phase": "REVEAL",
+      "commitHash": "d762508574fc4abc8e2762aeecea0204658db78e2b14e0fcf0c306cf550e8e48",
+      "winningColor": "GREEN",
+      "revealSalt": "0b2d52a28ae45144ee260755b8187e32",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:07:10.003Z",
+      "settledAt": "2026-11-23T21:07:36.045Z"
+    },
+    {
+      "roundId": "round-0015",
+      "roundNumber": 15,
+      "phase": "REVEAL",
+      "commitHash": "8f25be2a7ed00c731b7266c61c6e40796dde2f1e691ee98e60b60733940b2c90",
+      "winningColor": "BLUE",
+      "revealSalt": "18a0a112603cf0e64619edb2cbdceb18",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:06:38.949Z",
+      "settledAt": "2026-11-23T21:07:04.995Z"
+    },
+    {
+      "roundId": "round-0014",
+      "roundNumber": 14,
+      "phase": "REVEAL",
+      "commitHash": "df70e189a8a66e8384bc49efa438471476af42629edf1cfe72c1e4787ca30552",
+      "winningColor": "BLUE",
+      "revealSalt": "7dd71b57808619155c476ad0e20ac622",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:06:07.899Z",
+      "settledAt": "2026-11-23T21:06:33.939Z"
+    },
+    {
+      "roundId": "round-0013",
+      "roundNumber": 13,
+      "phase": "REVEAL",
+      "commitHash": "1df2d51f114b287eb3f02e3e574119f6a3d4ebde96689210571c07cd257dceaf",
+      "winningColor": "BLUE",
+      "revealSalt": "cf436f3dde1ccde2756be7dda7ae07b4",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:05:36.844Z",
+      "settledAt": "2026-11-23T21:06:02.885Z"
+    },
+    {
+      "roundId": "round-0012",
+      "roundNumber": 12,
+      "phase": "REVEAL",
+      "commitHash": "6d646732133ccfe4e9edd797a1af148b4c626fea1cd97508e50af1d13a17d659",
+      "winningColor": "GREEN",
+      "revealSalt": "b418d517dfb0801e60786a168be3ae18",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:05:05.798Z",
+      "settledAt": "2026-11-23T21:05:31.836Z"
+    },
+    {
+      "roundId": "round-0011",
+      "roundNumber": 11,
+      "phase": "REVEAL",
+      "commitHash": "93f718f8896613f99db2693db2a9b557c93805aa09399c9cebc009acc6e0bd03",
+      "winningColor": "ORANGE",
+      "revealSalt": "57f08d2d9f2603bd7fd4add028faaf54",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:04:34.750Z",
+      "settledAt": "2026-11-23T21:05:00.792Z"
+    },
+    {
+      "roundId": "round-0010",
+      "roundNumber": 10,
+      "phase": "REVEAL",
+      "commitHash": "cc2f01949a969a0e745366ea2f542f54a4b1a095fbac691c870a17b5e0f314ff",
+      "winningColor": "BLUE",
+      "revealSalt": "ce8566dc85a1660e481f3d0894d8d133",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:04:03.693Z",
+      "settledAt": "2026-11-23T21:04:29.741Z"
+    },
+    {
+      "roundId": "round-0009",
+      "roundNumber": 9,
+      "phase": "REVEAL",
+      "commitHash": "7d9ab33414507e9e8f118f750f7ad34cf6df6ad25fb9c05713078c36cb6da3c3",
+      "winningColor": "ORANGE",
+      "revealSalt": "3691580508a6fa857109ed54e3dcc047",
+      "totalPool": 0,
+      "totalPayout": 0,
+      "betCount": 0,
+      "poolByColor": {
+        "GREEN": 0,
+        "BLUE": 0,
+        "ORANGE": 0
+      },
+      "startedAt": "2026-11-23T21:03:32.600Z",
+      "settledAt": "2026-11-23T21:03:58.682Z"
+    },
+    {
+      "roundId": "round-0008",
+      "roundNumber": 8,
+      "phase": "REVEAL",
+      "commitHash": "b1e9e577541e006a917044b679631ddaa90c16a6b380d6a9d4a28d8285bcb68c",
+      "winningColor": "BLUE",
+      "revealSalt": "e5f6218bac6da6bfc437a0280ba89fba",
+      "totalPool": 615,
+      "totalPayout": 811.25,
+      "betCount": 8,
+      "poolByColor": {
+        "GREEN": 185,
+        "BLUE": 295,
+        "ORANGE": 135
+      },
+      "startedAt": "2026-11-23T21:02:47.071Z",
+      "settledAt": "2026-11-23T21:03:15.071Z"
+    },
+    {
+      "roundId": "round-0007",
+      "roundNumber": 7,
+      "phase": "REVEAL",
+      "commitHash": "501c56a73e53788dc5308e8fcbbe8533d47909d7b425d068799a24a4683fc271",
+      "winningColor": "GREEN",
+      "revealSalt": "e2255b1cc30436894011ed5576bac7e4",
+      "totalPool": 510,
+      "totalPayout": 412.5,
+      "betCount": 7,
+      "poolByColor": {
+        "GREEN": 150,
+        "BLUE": 250,
+        "ORANGE": 110
+      },
+      "startedAt": "2026-11-23T21:02:02.071Z",
+      "settledAt": "2026-11-23T21:02:30.071Z"
+    },
+    {
+      "roundId": "round-0006",
+      "roundNumber": 6,
+      "phase": "REVEAL",
+      "commitHash": "f278d38ff612d9de6d9526c8eef36a4e56108ab18d986d12cdfe6dc717b40a3d",
+      "winningColor": "ORANGE",
+      "revealSalt": "e66ff96b6e226dfb63f349bef0dd2c2b",
+      "totalPool": 735,
+      "totalPayout": 646.25,
+      "betCount": 6,
+      "poolByColor": {
+        "GREEN": 295,
+        "BLUE": 205,
+        "ORANGE": 235
+      },
+      "startedAt": "2026-11-23T21:01:17.071Z",
+      "settledAt": "2026-11-23T21:01:45.071Z"
+    },
+    {
+      "roundId": "round-0005",
+      "roundNumber": 5,
+      "phase": "REVEAL",
+      "commitHash": "6ec88912335db128a4157f77bf1a4946e577cd03c96bbd5da06cb1604b9c3471",
+      "winningColor": "BLUE",
+      "revealSalt": "620d414df01c4e3284dfb93d13519f59",
+      "totalPool": 630,
+      "totalPayout": 440,
+      "betCount": 10,
+      "poolByColor": {
+        "GREEN": 260,
+        "BLUE": 160,
+        "ORANGE": 210
+      },
+      "startedAt": "2026-11-23T21:00:32.071Z",
+      "settledAt": "2026-11-23T21:01:00.071Z"
+    },
+    {
+      "roundId": "round-0004",
+      "roundNumber": 4,
+      "phase": "REVEAL",
+      "commitHash": "407b83d432839af2029bdae96d9f43f9d84c5db439d9ea7f9de195a038c0f4b2",
+      "winningColor": "GREEN",
+      "revealSalt": "330d415a8daf1c8e4985ac55fb0dd253",
+      "totalPool": 685,
+      "totalPayout": 618.75,
+      "betCount": 9,
+      "poolByColor": {
+        "GREEN": 225,
+        "BLUE": 275,
+        "ORANGE": 185
+      },
+      "startedAt": "2026-11-23T20:59:47.071Z",
+      "settledAt": "2026-11-23T21:00:15.071Z"
+    },
+    {
+      "roundId": "round-0003",
+      "roundNumber": 3,
+      "phase": "REVEAL",
+      "commitHash": "19c052380206f3ab96473722d7f296ba11803343119e986ff98bcbaf449d270c",
+      "winningColor": "BLUE",
+      "revealSalt": "53af917ebc082a7232bf140831584d47",
+      "totalPool": 580,
+      "totalPayout": 632.5,
+      "betCount": 8,
+      "poolByColor": {
+        "GREEN": 190,
+        "BLUE": 230,
+        "ORANGE": 160
+      },
+      "startedAt": "2026-11-23T20:59:02.071Z",
+      "settledAt": "2026-11-23T20:59:30.071Z"
+    },
+    {
+      "roundId": "round-0002",
+      "roundNumber": 2,
+      "phase": "REVEAL",
+      "commitHash": "af79029382f6b0f1321188b59655f38636e23aa1afce10f3099561e07b81e7a3",
+      "winningColor": "ORANGE",
+      "revealSalt": "1204604e6c4723d1705459f54f08d474",
+      "totalPool": 475,
+      "totalPayout": 371.25,
+      "betCount": 7,
+      "poolByColor": {
+        "GREEN": 155,
+        "BLUE": 185,
+        "ORANGE": 135
+      },
+      "startedAt": "2026-11-23T20:58:17.071Z",
+      "settledAt": "2026-11-23T20:58:45.071Z"
+    },
+    {
+      "roundId": "round-0001",
+      "roundNumber": 1,
+      "phase": "REVEAL",
+      "commitHash": "74ca87dda414a4747d64506869a940c42e3827cabd5bc4f4ddfd8c6564d413c3",
+      "winningColor": "GREEN",
+      "revealSalt": "91355586928d01d922215966413aeee8",
+      "totalPool": 370,
+      "totalPayout": 330,
+      "betCount": 6,
+      "poolByColor": {
+        "GREEN": 120,
+        "BLUE": 140,
+        "ORANGE": 110
+      },
+      "startedAt": "2026-11-23T20:57:32.071Z",
+      "settledAt": "2026-11-23T20:58:00.071Z"
+    }
+  ],
+  "bets": [],
+  "transactions": [
+    {
+      "txId": "tx-seed-dep-1",
+      "userId": "player-marcus",
+      "username": "MarcusV",
+      "type": "deposit",
+      "amount": 150,
+      "status": "pending",
+      "note": "Bank wire reference #BW-8412",
+      "createdAt": "2026-11-23T21:00:32.071Z"
+    },
+    {
+      "txId": "tx-seed-wd-1",
+      "userId": "player-elena",
+      "username": "Elena_K",
+      "type": "withdrawal",
+      "amount": 80,
+      "status": "pending",
+      "note": "Payout to verified account",
+      "createdAt": "2026-11-23T21:01:32.071Z"
+    },
+    {
+      "txId": "tx-seed-dep-0",
+      "userId": "player-soren",
+      "username": "Soren99",
+      "type": "deposit",
+      "amount": 500,
+      "status": "approved",
+      "note": "Initial account funding",
+      "createdAt": "2026-11-21T21:03:32.071Z",
+      "processedAt": "2026-11-21T21:04:32.071Z",
+      "processedBy": "system"
+    }
+  ],
+  "settings": {
+    "bettingDurationSec": 14,
+    "colorDrawDurationSec": 3,
+    "pickingDurationSec": 9,
+    "revealDurationSec": 5,
+    "minBet": 5,
+    "maxBet": 2500,
+    "payoutMultiplier": 2.75,
+    "houseBalance": 48500,
+    "totalVolume": 11700,
+    "houseProfit": 1425.75,
+    "maintenanceMode": false,
+    "leaderboardVisible": true,
+    "updatedAt": "2026-11-23T22:16:24.267Z"
+  },
+  "nextRoundNumber": 151
+}
