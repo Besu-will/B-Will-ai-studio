@@ -1,0 +1,8 @@
+{
+  "name": "B-WILL",
+  "description": "B-WILL is a real-time three-color betting platform featuring dual independent betting slots, server-authoritative rounds, player wallets, and an administrative dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

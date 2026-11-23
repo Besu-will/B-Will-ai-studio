@@ -1,0 +1,167 @@
+{
+  "entities": {
+    "PlayerPublic": {
+      "title": "PlayerPublic",
+      "description": "Public player profile, balance summary, and leaderboard statistics.",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string", "minLength": 1, "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "username": { "type": "string", "minLength": 3, "maxLength": 20, "pattern": "^[a-zA-Z0-9_]+$" },
+        "balance": { "type": "number" },
+        "totalWagered": { "type": "number" },
+        "totalWon": { "type": "number" },
+        "winsCount": { "type": "integer" },
+        "gamesPlayed": { "type": "integer" },
+        "isBanned": { "type": "boolean" },
+        "role": { "type": "string", "enum": ["player", "admin"] },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "username", "balance", "totalWagered", "totalWon", "winsCount", "gamesPlayed", "isBanned", "role", "createdAt", "updatedAt"]
+    },
+    "PlayerPrivate": {
+      "title": "PlayerPrivate",
+      "description": "Private player PII isolated from public reads.",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string", "minLength": 1, "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "email": { "type": "string", "format": "email", "maxLength": 254 },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "email", "createdAt"]
+    },
+    "UsernameClaim": {
+      "title": "UsernameClaim",
+      "description": "Atomic unique username reservation mapping lowercase username to owner UID.",
+      "type": "object",
+      "properties": {
+        "ownerUid": { "type": "string", "minLength": 1, "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "username": { "type": "string", "minLength": 3, "maxLength": 20, "pattern": "^[a-zA-Z0-9_]+$" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["ownerUid", "username", "createdAt"]
+    },
+    "Round": {
+      "title": "Round",
+      "description": "Authoritative game round record with commit-reveal hash and settled outcome.",
+      "type": "object",
+      "properties": {
+        "roundId": { "type": "string", "minLength": 1, "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "roundNumber": { "type": "integer" },
+        "phase": { "type": "string", "enum": ["BETTING", "COLOR_DRAW", "PICKING", "REVEAL"] },
+        "commitHash": { "type": "string", "minLength": 32, "maxLength": 128 },
+        "winningColor": { "type": "string", "enum": ["GREEN", "BLUE", "ORANGE"] },
+        "revealSalt": { "type": "string", "minLength": 8, "maxLength": 128 },
+        "totalPool": { "type": "number" },
+        "totalPayout": { "type": "number" },
+        "startedAt": { "type": "string", "format": "date-time" },
+        "settledAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["roundId", "roundNumber", "phase", "commitHash", "totalPool", "totalPayout", "startedAt"]
+    },
+    "Bet": {
+      "title": "Bet",
+      "description": "Individual player slot bet within a round.",
+      "type": "object",
+      "properties": {
+        "betId": { "type": "string", "minLength": 1, "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "userId": { "type": "string", "minLength": 1, "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "username": { "type": "string", "minLength": 3, "maxLength": 20, "pattern": "^[a-zA-Z0-9_]+$" },
+        "roundId": { "type": "string", "minLength": 1, "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "roundNumber": { "type": "integer" },
+        "slotIndex": { "type": "integer" },
+        "selectedColor": { "type": "string", "enum": ["GREEN", "BLUE", "ORANGE"] },
+        "stake": { "type": "number" },
+        "status": { "type": "string", "enum": ["pending", "won", "lost"] },
+        "payout": { "type": "number" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "settledAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["betId", "userId", "username", "roundId", "roundNumber", "slotIndex", "selectedColor", "stake", "status", "payout", "createdAt"]
+    },
+    "Transaction": {
+      "title": "Transaction",
+      "description": "Deposit, withdrawal, bet, win, or admin balance adjustment ledger record.",
+      "type": "object",
+      "properties": {
+        "txId": { "type": "string", "minLength": 1, "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "userId": { "type": "string", "minLength": 1, "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "username": { "type": "string", "minLength": 3, "maxLength": 20, "pattern": "^[a-zA-Z0-9_]+$" },
+        "type": { "type": "string", "enum": ["deposit", "withdrawal", "bet", "win", "adjustment"] },
+        "amount": { "type": "number" },
+        "status": { "type": "string", "enum": ["pending", "approved", "rejected", "cancelled", "completed"] },
+        "note": { "type": "string", "maxLength": 240 },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "processedAt": { "type": "string", "format": "date-time" },
+        "processedBy": { "type": "string", "maxLength": 128 }
+      },
+      "required": ["txId", "userId", "username", "type", "amount", "status", "note", "createdAt"]
+    },
+    "GameSettings": {
+      "title": "GameSettings",
+      "description": "Platform-wide game phase durations, bet limits, payout multiplier, and house treasury metrics.",
+      "type": "object",
+      "properties": {
+        "bettingDurationSec": { "type": "integer" },
+        "colorDrawDurationSec": { "type": "integer" },
+        "pickingDurationSec": { "type": "integer" },
+        "revealDurationSec": { "type": "integer" },
+        "minBet": { "type": "number" },
+        "maxBet": { "type": "number" },
+        "payoutMultiplier": { "type": "number" },
+        "houseBalance": { "type": "number" },
+        "totalVolume": { "type": "number" },
+        "houseProfit": { "type": "number" },
+        "maintenanceMode": { "type": "boolean" },
+        "leaderboardVisible": { "type": "boolean" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["bettingDurationSec", "colorDrawDurationSec", "pickingDurationSec", "revealDurationSec", "minBet", "maxBet", "payoutMultiplier", "houseBalance", "totalVolume", "houseProfit", "maintenanceMode", "leaderboardVisible", "updatedAt"]
+    },
+    "AdminRecord": {
+      "title": "AdminRecord",
+      "description": "Explicit administrator privilege document keyed by Firebase UID.",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string", "minLength": 1, "maxLength": 128, "pattern": "^[a-zA-Z0-9_\\-]+$" },
+        "email": { "type": "string", "format": "email", "maxLength": 254 },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "email", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/players/{userId}": {
+      "schema": { "$ref": "#/entities/PlayerPublic" },
+      "description": "Player public profile and leaderboard metrics."
+    },
+    "/players/{userId}/private/{docId}": {
+      "schema": { "$ref": "#/entities/PlayerPrivate" },
+      "description": "Isolated PII document for player email."
+    },
+    "/usernames/{usernameLower}": {
+      "schema": { "$ref": "#/entities/UsernameClaim" },
+      "description": "Unique username reservation registry."
+    },
+    "/rounds/{roundId}": {
+      "schema": { "$ref": "#/entities/Round" },
+      "description": "Completed and active game rounds."
+    },
+    "/bets/{betId}": {
+      "schema": { "$ref": "#/entities/Bet" },
+      "description": "Player bets across Slot 1 and Slot 2."
+    },
+    "/transactions/{txId}": {
+      "schema": { "$ref": "#/entities/Transaction" },
+      "description": "Deposits, withdrawals, wagers, and payouts."
+    },
+    "/settings/{settingId}": {
+      "schema": { "$ref": "#/entities/GameSettings" },
+      "description": "Global platform configuration and house financial summary."
+    },
+    "/admins/{userId}": {
+      "schema": { "$ref": "#/entities/AdminRecord" },
+      "description": "Administrator registry."
+    }
+  }
+}

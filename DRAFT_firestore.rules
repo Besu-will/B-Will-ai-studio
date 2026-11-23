@@ -1,0 +1,321 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Global Safety Net: Default Deny
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // --- Primitive Helpers ---
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isVerifiedUser() {
+      return isSignedIn() && request.auth.token.email_verified == true;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() >= 1 && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function isOwner(userId) {
+      return isSignedIn() && request.auth.uid == userId;
+    }
+
+    function isAdmin() {
+      return isVerifiedUser() && (
+        request.auth.token.email == 'outstandiiing@gmail.com' ||
+        exists(/databases/$(database)/documents/admins/$(request.auth.uid))
+      );
+    }
+
+    function isValidUsername(u) {
+      return u is string && u.size() >= 3 && u.size() <= 20 && u.matches('^[a-zA-Z0-9_]+$');
+    }
+
+    function isValidColor(c) {
+      return c in ['GREEN', 'BLUE', 'ORANGE'];
+    }
+
+    // --- Entity Validation Blueprints ---
+    function isValidPlayerPublic(data) {
+      return data.keys().hasAll(['userId', 'username', 'balance', 'totalWagered', 'totalWon', 'winsCount', 'gamesPlayed', 'isBanned', 'role', 'createdAt', 'updatedAt'])
+        && data.keys().hasOnly(['userId', 'username', 'balance', 'totalWagered', 'totalWon', 'winsCount', 'gamesPlayed', 'isBanned', 'role', 'createdAt', 'updatedAt'])
+        && isValidId(data.userId)
+        && isValidUsername(data.username)
+        && data.balance is number && data.balance >= 0
+        && data.totalWagered is number && data.totalWagered >= 0
+        && data.totalWon is number && data.totalWon >= 0
+        && data.winsCount is int && data.winsCount >= 0
+        && data.gamesPlayed is int && data.gamesPlayed >= 0
+        && data.isBanned is bool
+        && data.role in ['player', 'admin']
+        && data.createdAt is timestamp
+        && data.updatedAt is timestamp;
+    }
+
+    function isValidPlayerPrivate(data) {
+      return data.keys().hasAll(['userId', 'email', 'createdAt'])
+        && data.keys().hasOnly(['userId', 'email', 'createdAt'])
+        && isValidId(data.userId)
+        && data.email is string && data.email.size() >= 3 && data.email.size() <= 254
+        && data.createdAt is timestamp;
+    }
+
+    function isValidUsernameClaim(data) {
+      return data.keys().hasAll(['ownerUid', 'username', 'createdAt'])
+        && data.keys().hasOnly(['ownerUid', 'username', 'createdAt'])
+        && isValidId(data.ownerUid)
+        && isValidUsername(data.username)
+        && data.createdAt is timestamp;
+    }
+
+    function isValidRound(data) {
+      return data.keys().hasAll(['roundId', 'roundNumber', 'phase', 'commitHash', 'totalPool', 'totalPayout', 'startedAt'])
+        && data.keys().hasOnly(['roundId', 'roundNumber', 'phase', 'commitHash', 'winningColor', 'revealSalt', 'totalPool', 'totalPayout', 'startedAt', 'settledAt'])
+        && isValidId(data.roundId)
+        && data.roundNumber is int && data.roundNumber >= 1
+        && data.phase in ['BETTING', 'COLOR_DRAW', 'PICKING', 'REVEAL']
+        && data.commitHash is string && data.commitHash.size() >= 32 && data.commitHash.size() <= 128
+        && (!('winningColor' in data) || isValidColor(data.winningColor))
+        && (!('revealSalt' in data) || (data.revealSalt is string && data.revealSalt.size() >= 8 && data.revealSalt.size() <= 128))
+        && data.totalPool is number && data.totalPool >= 0
+        && data.totalPayout is number && data.totalPayout >= 0
+        && data.startedAt is timestamp
+        && (!('settledAt' in data) || data.settledAt is timestamp);
+    }
+
+    function isValidBet(data) {
+      return data.keys().hasAll(['betId', 'userId', 'username', 'roundId', 'roundNumber', 'slotIndex', 'selectedColor', 'stake', 'status', 'payout', 'createdAt'])
+        && data.keys().hasOnly(['betId', 'userId', 'username', 'roundId', 'roundNumber', 'slotIndex', 'selectedColor', 'stake', 'status', 'payout', 'createdAt', 'settledAt'])
+        && isValidId(data.betId)
+        && isValidId(data.userId)
+        && isValidUsername(data.username)
+        && isValidId(data.roundId)
+        && data.roundNumber is int && data.roundNumber >= 1
+        && data.slotIndex in [1, 2]
+        && isValidColor(data.selectedColor)
+        && data.stake is number && data.stake > 0
+        && data.status in ['pending', 'won', 'lost']
+        && data.payout is number && data.payout >= 0
+        && data.createdAt is timestamp
+        && (!('settledAt' in data) || data.settledAt is timestamp);
+    }
+
+    function isValidTransaction(data) {
+      return data.keys().hasAll(['txId', 'userId', 'username', 'type', 'amount', 'status', 'note', 'createdAt'])
+        && data.keys().hasOnly(['txId', 'userId', 'username', 'type', 'amount', 'status', 'note', 'createdAt', 'processedAt', 'processedBy'])
+        && isValidId(data.txId)
+        && isValidId(data.userId)
+        && isValidUsername(data.username)
+        && data.type in ['deposit', 'withdrawal', 'bet', 'win', 'adjustment']
+        && data.amount is number && data.amount > 0
+        && data.status in ['pending', 'approved', 'rejected', 'cancelled', 'completed']
+        && data.note is string && data.note.size() <= 240
+        && data.createdAt is timestamp
+        && (!('processedAt' in data) || data.processedAt is timestamp)
+        && (!('processedBy' in data) || (data.processedBy is string && data.processedBy.size() <= 128));
+    }
+
+    function isValidGameSettings(data) {
+      return data.keys().hasAll(['bettingDurationSec', 'colorDrawDurationSec', 'pickingDurationSec', 'revealDurationSec', 'minBet', 'maxBet', 'payoutMultiplier', 'houseBalance', 'totalVolume', 'houseProfit', 'maintenanceMode', 'leaderboardVisible', 'updatedAt'])
+        && data.keys().hasOnly(['bettingDurationSec', 'colorDrawDurationSec', 'pickingDurationSec', 'revealDurationSec', 'minBet', 'maxBet', 'payoutMultiplier', 'houseBalance', 'totalVolume', 'houseProfit', 'maintenanceMode', 'leaderboardVisible', 'updatedAt'])
+        && data.bettingDurationSec is int && data.bettingDurationSec >= 5 && data.bettingDurationSec <= 120
+        && data.colorDrawDurationSec is int && data.colorDrawDurationSec >= 2 && data.colorDrawDurationSec <= 30
+        && data.pickingDurationSec is int && data.pickingDurationSec >= 5 && data.pickingDurationSec <= 120
+        && data.revealDurationSec is int && data.revealDurationSec >= 3 && data.revealDurationSec <= 30
+        && data.minBet is number && data.minBet >= 1
+        && data.maxBet is number && data.maxBet >= data.minBet
+        && data.payoutMultiplier is number && data.payoutMultiplier >= 1.1 && data.payoutMultiplier <= 10
+        && data.houseBalance is number
+        && data.totalVolume is number && data.totalVolume >= 0
+        && data.houseProfit is number
+        && data.maintenanceMode is bool
+        && data.leaderboardVisible is bool
+        && data.updatedAt is timestamp;
+    }
+
+    function isValidAdminRecord(data) {
+      return data.keys().hasAll(['userId', 'email', 'createdAt'])
+        && data.keys().hasOnly(['userId', 'email', 'createdAt'])
+        && isValidId(data.userId)
+        && data.email is string && data.email.size() >= 3 && data.email.size() <= 254
+        && data.createdAt is timestamp;
+    }
+
+    // --- Collection Match Blocks ---
+
+    // Players public profile (no PII here)
+    match /players/{userId} {
+      allow get: if isSignedIn() && isValidId(userId);
+      allow list: if isSignedIn();
+      allow create: if isVerifiedUser()
+        && isValidId(userId)
+        && isOwner(userId)
+        && isValidPlayerPublic(incoming())
+        && incoming().userId == request.auth.uid
+        && incoming().role == 'player'
+        && incoming().balance == 0
+        && incoming().totalWagered == 0
+        && incoming().totalWon == 0
+        && incoming().winsCount == 0
+        && incoming().gamesPlayed == 0
+        && incoming().isBanned == false
+        && incoming().createdAt == request.time
+        && incoming().updatedAt == request.time;
+      allow update: if isVerifiedUser()
+        && isValidId(userId)
+        && isValidPlayerPublic(incoming())
+        && incoming().userId == existing().userId
+        && incoming().createdAt == existing().createdAt
+        && incoming().updatedAt == request.time
+        && isAdmin();
+      allow delete: if isAdmin() && isValidId(userId);
+
+      // Isolated PII subcollection
+      match /private/{docId} {
+        allow get: if isValidId(userId) && isValidId(docId) && (isOwner(userId) || isAdmin());
+        allow list: if isValidId(userId) && (isOwner(userId) || isAdmin());
+        allow create: if isVerifiedUser()
+          && isValidId(userId)
+          && isValidId(docId)
+          && isOwner(userId)
+          && isValidPlayerPrivate(incoming())
+          && incoming().userId == request.auth.uid
+          && incoming().createdAt == request.time;
+        allow update: if isAdmin()
+          && isValidId(userId)
+          && isValidId(docId)
+          && isValidPlayerPrivate(incoming())
+          && incoming().userId == existing().userId
+          && incoming().createdAt == existing().createdAt;
+        allow delete: if isAdmin() && isValidId(userId) && isValidId(docId);
+      }
+    }
+
+    // Unique username reservations
+    match /usernames/{usernameLower} {
+      allow get: if isSignedIn() && isValidId(usernameLower);
+      allow list: if false;
+      allow create: if isVerifiedUser()
+        && isValidId(usernameLower)
+        && isValidUsernameClaim(incoming())
+        && incoming().ownerUid == request.auth.uid
+        && incoming().username.lower() == usernameLower
+        && incoming().createdAt == request.time;
+      allow update: if false;
+      allow delete: if isAdmin() && isValidId(usernameLower);
+    }
+
+    // Game rounds (read-only for players, admin-managed)
+    match /rounds/{roundId} {
+      allow get: if isSignedIn() && isValidId(roundId);
+      allow list: if isSignedIn();
+      allow create: if isAdmin()
+        && isValidId(roundId)
+        && isValidRound(incoming())
+        && incoming().startedAt == request.time;
+      allow update: if isAdmin()
+        && isValidId(roundId)
+        && isValidRound(incoming())
+        && incoming().roundId == existing().roundId
+        && incoming().roundNumber == existing().roundNumber
+        && incoming().startedAt == existing().startedAt;
+      allow delete: if false;
+    }
+
+    // Bets (players can read own bets; admins read all)
+    match /bets/{betId} {
+      allow get: if isValidId(betId) && isSignedIn() && (existing().userId == request.auth.uid || isAdmin());
+      allow list: if isSignedIn() && (resource.data.userId == request.auth.uid || isAdmin());
+      allow create: if isVerifiedUser()
+        && isValidId(betId)
+        && isValidBet(incoming())
+        && incoming().userId == request.auth.uid
+        && incoming().status == 'pending'
+        && incoming().payout == 0
+        && incoming().createdAt == request.time
+        && exists(/databases/$(database)/documents/rounds/$(incoming().roundId))
+        && get(/databases/$(database)/documents/rounds/$(incoming().roundId)).data.phase == 'BETTING';
+      allow update: if isVerifiedUser()
+        && isValidId(betId)
+        && isValidBet(incoming())
+        && incoming().betId == existing().betId
+        && incoming().userId == existing().userId
+        && incoming().roundId == existing().roundId
+        && incoming().createdAt == existing().createdAt
+        && (
+          isAdmin() ||
+          (
+            existing().userId == request.auth.uid
+            && existing().status == 'pending'
+            && incoming().diff(existing()).affectedKeys().hasOnly(['selectedColor'])
+            && get(/databases/$(database)/documents/rounds/$(existing().roundId)).data.phase == 'PICKING'
+          )
+        );
+      allow delete: if false;
+    }
+
+    // Financial transactions (deposits, withdrawals, payouts)
+    match /transactions/{txId} {
+      allow get: if isValidId(txId) && isSignedIn() && (existing().userId == request.auth.uid || isAdmin());
+      allow list: if isSignedIn() && (resource.data.userId == request.auth.uid || isAdmin());
+      allow create: if isVerifiedUser()
+        && isValidId(txId)
+        && isValidTransaction(incoming())
+        && incoming().userId == request.auth.uid
+        && incoming().type in ['deposit', 'withdrawal']
+        && incoming().status == 'pending'
+        && incoming().createdAt == request.time;
+      allow update: if isVerifiedUser()
+        && isValidId(txId)
+        && isValidTransaction(incoming())
+        && incoming().txId == existing().txId
+        && incoming().userId == existing().userId
+        && incoming().type == existing().type
+        && incoming().amount == existing().amount
+        && incoming().createdAt == existing().createdAt
+        && (
+          isAdmin() ||
+          (
+            existing().userId == request.auth.uid
+            && existing().type == 'withdrawal'
+            && existing().status == 'pending'
+            && incoming().status == 'cancelled'
+            && incoming().diff(existing()).affectedKeys().hasOnly(['status', 'processedAt'])
+            && incoming().processedAt == request.time
+          )
+        );
+      allow delete: if false;
+    }
+
+    // Platform game settings
+    match /settings/{settingId} {
+      allow get: if isSignedIn() && isValidId(settingId);
+      allow list: if false;
+      allow create, update: if isAdmin()
+        && isValidId(settingId)
+        && isValidGameSettings(incoming())
+        && incoming().updatedAt == request.time;
+      allow delete: if false;
+    }
+
+    // Admin registry
+    match /admins/{userId} {
+      allow get: if isValidId(userId) && (isOwner(userId) || isAdmin());
+      allow list: if isAdmin();
+      allow create, update, delete: if isAdmin()
+        && isValidId(userId)
+        && (request.method == 'delete' || isValidAdminRecord(incoming()));
+    }
+  }
+}
